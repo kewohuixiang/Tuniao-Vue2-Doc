@@ -100,7 +100,7 @@ export default defineConfig({
         nav: [
             { text: '指南', link: '/guide/demo' },
             { text: '组件', link: '/components/install' },
-            { text: '模板', link: '/theme/intro' },
+            { text: '模板', link: '/theme/muse/tnui' },
             { text: '社区', link: '/Community/Community' },
             { text: '团队', link: '/team/team' },
             { text: '推荐作品', link: '/works/works' },

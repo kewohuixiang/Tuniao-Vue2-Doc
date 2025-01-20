@@ -2,7 +2,7 @@
     <img alt="logo" src="/docs/.vitepress/public/common/logo/logo.jpg" width="120" height="120" style="margin-bottom: 10px;">
 </p>
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">TuniaoUI Vue2 文档</h3>
-<h3 align="center">多平台快速开发的UI框架</h3>
+<h3 align="center">多平台快速开发的UI 模板框架</h3>
 
 ## 说明
 
@@ -10,8 +10,8 @@ TuniaoUI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，美�
 
 ## 链接
 
-- [官方文档](https://vue2.tuniaokj.com/)
-- [官方文档-备用](https://docs.ahuaaa.cn/)
+- [图鸟vue2 官方文档](https://vue2.tuniaokj.com/)
+- [图鸟vue2 官方文档-备用](https://docs.ahuaaa.cn/)
 - [关于我们](https://vue2.tuniaokj.com/team/team.html)
 - [关于我们-备用](https://docs.ahuaaa.cn/team/team.html)
 
@@ -20,7 +20,7 @@ TuniaoUI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，美�
 ## 交流反馈，进微信群（目前有16个图鸟微信活跃大群-2025-01-01）
 如需协助解决bug、拓展人脉等，建议添加作者微信进微信群，因为图鸟成员主要在微信群活跃
 <div style="margin-top: 20px" class="col-md-24 col-sm-24 col-xs-24">
-    <img style="width: 520px" src="../.vitepress/public/common/author/5-image.jpg" />
+    <img style="width: 520px" src="/docs/.vitepress/public/common/author/5-image.jpg" />
 </div>
 
 ## 关于PR
