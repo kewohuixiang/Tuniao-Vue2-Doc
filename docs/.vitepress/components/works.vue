@@ -7,12 +7,11 @@
         图鸟UI一直在努力做的更好，2025年，也将做的更好。</h4>
       <div style="margin: 0 auto">
         <el-row :gutter="20" style="margin-top: 20px;">
-          <el-col v-for="(item,index) in WorkList" :key="index" :xl="8" :lg="8" :md="12" :sm="12"  :xs="24"
-                  @click="openDialog">
+          <el-col v-for="(item,index) in WorkList" :key="index" :xl="8" :lg="8" :md="12" :sm="12"  :xs="24">
             <div class="works-card" @click="openDialog(item)">
-              <span v-if="item.openSource" class="site-card-tag speed">开源<i class="light"></i></span>
-              <span v-if="item.recommend" class="site-card-tag3 speed">推荐<i class="light"></i></span>
-              <span v-else-if="!item.openSource" class="site-card-tag2 speed">群友<i class="light"></i></span>
+              <span v-if="item.openSource" class="site-card-tag speed">开 源<i class="light"></i></span>
+              <span v-if="item.recommend" class="site-card-tag3 speed">推 荐<i class="light"></i></span>
+              <span v-else-if="!item.openSource" class="site-card-tag2 speed">群 友<i class="light"></i></span>
               <div style="display: flex;flex-direction: column;">
                 <div style="display: flex">
                   <el-image
@@ -70,13 +69,13 @@
             <div style="margin-top: 20px">{{ dialogModel.desc }}</div>
             <div style="margin-top: 20px">
               <a v-if="dialogModel.uniapp" :href="dialogModel.uniapp" target="_blank" @click.stop><span
-                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.uniapp }} </a>
+                  style="color: var(--vp--works-dialog-link-color)">开源地址: </span>{{ dialogModel.uniapp }} </a>
               <a v-if="dialogModel.github" :href="dialogModel.github" target="_blank" @click.stop><span
-                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.github }}</a>
+                  style="color: var(--vp--works-dialog-link-color)">开源地址: </span>{{ dialogModel.github }}</a>
               <a v-if="dialogModel.gitee" :href="dialogModel.gitee" target="_blank" @click.stop><span
-                  style="color: var(--vp--works-dialog-link-color)">开源地址:</span>{{ dialogModel.gitee }}</a>
+                  style="color: var(--vp--works-dialog-link-color)">开源地址: </span>{{ dialogModel.gitee }}</a>
               <a v-if="dialogModel.link" :href="dialogModel.link" target="_blank" @click.stop><span
-                  style="color: var(--vp--works-dialog-link-color)">相关地址:</span>{{ dialogModel.link }}</a>
+                  style="color: var(--vp--works-dialog-link-color)">相关地址: </span>{{ dialogModel.link }}</a>
             </div>
 
             <div style="margin-top:35px ">
@@ -665,19 +664,6 @@ const WorkList = ref([{
     github: '',
     gitee: '',
   }, {
-    name: '多客社交圈子',
-    indexImg: 'https://docs.ahuaaa.cn/docsimg/works/duoke.jpg',
-    desc: '多客圈子系统，提供开源前端和后端，是一款精心打磨的圈子社交论坛系统。让你快速拥有自己的圈子',
-    img: [
-      'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg', 'https://pans.ahuaaa.cn/docsimg/topimg.jpg'
-    ],
-    tag: ['多客', '圈子', '开源'],
-    openSource: true,
-    github: '',
-    gitee: '',
-    uniapp: '',
-    link: '',
-  }, {
     name: '电脑参数通',
     desc: '一个纯粹的电脑硬件参数查询对比小程序CPU、显卡参数快捷查询与对比',
     indexImg: 'https://pans.ahuaaa.cn/docsimg/works/canshutong.png',
@@ -798,5 +784,65 @@ const WorkList = ref([{
     openSource: false,
     github: '',
     gitee: '',
+  },{
+    name: '彩绘助手',
+    desc: '针对彩绘行业的图案资源库',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1737379547644-assets/web-upload/540af9aa-9ffa-4efc-9d2a-119b35bac668.jpeg',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1737379547644-assets/web-upload/540af9aa-9ffa-4efc-9d2a-119b35bac668.jpeg'
+    ],
+    tag: ['资源库', '彩绘'],
+    openSource: false,
+    github: '',
+    gitee: '',
+  },{
+    name: '剑三小黄鸡',
+    desc: '剑网三物价/剑三物价/贴吧物价报价',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/png/280373/1737381094264-assets/web-upload/4be0484a-5407-4763-801d-f1c5f3cfea52.png',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1737381094275-assets/web-upload/4fabc9d3-9467-4180-a8c6-f74a75e8393b.jpeg'
+    ],
+    tag: ['工具', '物价'],
+    openSource: false,
+    github: '',
+    gitee: '',
+  },{
+    name: '节点导航',
+    desc: '一个适合工作事业的导航网站',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/png/280373/1737381217280-assets/web-upload/88b35f8b-5c46-4268-aaad-e125cd978daa.png',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/png/280373/1737381217280-assets/web-upload/88b35f8b-5c46-4268-aaad-e125cd978daa.png'
+    ],
+    tag: ['工具', '导航'],
+    openSource: false,
+    github: '',
+    gitee: '',
+    link: 'https://sitee.bnyer.cn/'
+  },{
+    name: '奕霖古诗词',
+    desc: '唐诗三百首古诗词欣赏',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1737384783272-assets/web-upload/c921408e-1af0-4a85-8ad3-bfef59cd93c7.jpeg',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/jpeg/280373/1737384783272-assets/web-upload/c921408e-1af0-4a85-8ad3-bfef59cd93c7.jpeg'
+    ],
+    tag: ['学习', '古诗词'],
+    openSource: false,
+    //是否显示推荐
+    recommend: true,
+    github: '',
+    gitee: '',
+    link: ''
+  },{
+    name: '万物去水印',
+    desc: '免费好用的短视频去水印工具',
+    indexImg: 'https://cdn.nlark.com/yuque/0/2025/png/280373/1737385141724-assets/web-upload/ef95f317-0df1-48ff-b1a9-d40a3f1373eb.png',
+    img: [
+      'https://cdn.nlark.com/yuque/0/2025/png/280373/1737385141724-assets/web-upload/ef95f317-0df1-48ff-b1a9-d40a3f1373eb.png'
+    ],
+    tag: ['短视频', '去水印'],
+    openSource: false,
+    github: '',
+    gitee: '',
+    link: ''
   },]);
 </script>
