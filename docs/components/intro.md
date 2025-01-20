@@ -22,7 +22,7 @@ TuniaoUI开源组件遵循[apache](https://baike.baidu.com/item/apache/6848636?f
  `不能转售或将TuniaoUI源码（包含使用了TuniaoUI非开源代码）直接发布到公开渠道，圈子较小，请尊重版权。`
 
 ### 扫码预览 (  `已上线` 的小程序有以下) 
-或前往：[`图鸟生态`](/theme/intro) 查看更多
+或前往：[`图鸟生态`](/theme/muse/tnui) 查看更多
 
 <br>
 <el-row>

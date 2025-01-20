@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="/docs/.vitepress/public/common/logo/logo.jpg" width="120" height="120" style="margin-bottom: 10px;">
+    <img alt="logo" src="/docs/.vitepress/public/common/logo/logo.jpg" width="120" height="120" style="margin-bottom: 10px;border-radius: 1000px">
 </p>
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">TuniaoUI Vue2 文档</h3>
 <h3 align="center">多平台快速开发的UI 模板框架</h3>

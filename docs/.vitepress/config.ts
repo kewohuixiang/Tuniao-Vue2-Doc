@@ -138,8 +138,9 @@ export default defineConfig({
                     text: '填坑技巧',
                     items: [
                         { text: '扩展自定义图标库', link: '/guide/customIcon' },
-                        { text: '图鸟图标模板使用', link: 'https://icon.ahuaaa.cn/#/' },
-                        { text: '图鸟自定义tabbar', link: 'https://mp.weixin.qq.com/s/tiiwQlB9Z1ItmxBCYQV-og' }
+                        // { text: '图鸟自定义tabbar', link: '/guide/tabbar' },
+                        // { text: '图鸟flex布局', link: '/guide/flex' }
+
                     ],
                     collapsed: false,
                 }

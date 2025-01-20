@@ -41,7 +41,7 @@ TuniaoUI 已通过大量的实践中，收集了用户最有可能需要用到�
 
 3、如果没有项目，那就新建一个呗
 <div style="margin-top: 20px;display: flex;" class="col-md-24 col-sm-24 col-xs-24">
-    <img style="width: 40%;height:100%;margin-right: 20px" src="../.vitepress/public/custom_icon/icon3.png" />
+    <img style="width: 40%;height:100%;margin-right: 20px; border: 1px solid #eaeefb;" src="../.vitepress/public/custom_icon/icon3.png" />
     <img style="width: 30%; border: 1px solid #eaeefb;" src="../.vitepress/public/custom_icon/icon4.png" />
 </div>
 
@@ -66,6 +66,8 @@ TuniaoUI 已通过大量的实践中，收集了用户最有可能需要用到�
     <img style="width: 100%; border: 1px solid #eaeefb;" src="../.vitepress/public/custom_icon/icon8.png" />
 </div>
 
+<br>
+<br>
 
 ##### 项目进行引用
 
